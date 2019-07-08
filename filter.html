@@ -1,0 +1,9 @@
+<html ng-app="mainApp">
+    <head>
+        <script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
+        <script src="filterScript.js"></script>
+    </head>
+    <body ng-controller="demoController">
+        {{ greeting | upperCase:'reverse' }}
+    </body>
+</html>
